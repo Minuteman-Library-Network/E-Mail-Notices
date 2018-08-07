@@ -20,7 +20,7 @@ sierra_view.patron_record_fullname n
 ON
 p.id = n.patron_record_id
 WHERE
-p.expiration_date_gmt::date = (localtimestamp::date - '1 day')
+p.expiration_date_gmt::date = (localtimestamp::date - interval '1 day')
 --Use for testing
 --AND p.barcode in ('','')
 
