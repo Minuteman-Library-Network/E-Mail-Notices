@@ -92,7 +92,7 @@ for rownum, row in enumerate(rows):
     html = '''
     <html>
     <head></head>
-    <body style="background-color:#DBE6F1;">
+    <body style="background-color:#202941;">
     <table style="width: 70%; margin-left: 15%; margin-right: 15%; border: 0; cellspacing: 0; cellpadding: 0; background-color: #FFFFFF;">
     <tr>
     <font face="Scala Sans, Calibri, Arial"; size="3">
