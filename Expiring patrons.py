@@ -71,7 +71,7 @@ for rownum, row in enumerate(rows):
     #Plain text version
     text = '''Dear {} {},
      
-    This is a reminder that your library card will expire on {}.  Visit any Minuteman library for information on how to renew your account and continue access to over 6 million items.
+    This is a reminder that your library card will expire on {}.  Visit or contact any Minuteman library for information on how to renew your account and continue access to over 6 million items.
     
     ***This is an automated email***'''.format(str(row[0]),str(row[1]),str(row[3]))
     
@@ -87,7 +87,7 @@ for rownum, row in enumerate(rows):
     <p>Dear {} {},<br><br>
     
     This is a reminder that your library card will expire on {}.<br>
-    Visit any <a href="http://www.mln.lib.ma.us/info/">Minuteman library</a> for information on how to renew your account and continue access to over 6 million items.<br><br>
+    Visit or contact any <a href="http://www.mln.lib.ma.us/info/">Minuteman library</a> for information on how to renew your account and continue access to over 6 million items.<br><br>
     ***This is an automated email.  Do not reply.***<br><br>
     </font>
     </p>
